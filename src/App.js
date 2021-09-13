@@ -1,8 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-    <h1>Hola Mundo!</h1>
+    <div>
+      <Router>
+        <Navbar />
+      </Router>
+    </div>
   );
 }
 
